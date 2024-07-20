@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="55cm" height="16cm" viewBox="226 250 1094 318" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Fondo">
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="311" y="250" width="110.7" height="18"/>
+      <text font-size="11.1992" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="366.35" y="264">Objective</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="311" y="268" width="110.7" height="36"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="314,278 316,281 318,278 316,275 "/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="320" y="284">id</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="360.8" y="284">INTEGER</text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="320" y1="285.6" x2="414.7" y2="285.6"/>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="316" cy="294" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="320" y="300">name</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="360.8" y="300">TEXT</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="248.994" y="413.753" width="341.7" height="18"/>
+      <text font-size="11.1992" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="419.844" y="427.753">Raid</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="248.994" y="431.753" width="341.7" height="100"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="251.994,441.753 253.994,444.753 255.994,441.753 253.994,438.753 "/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="257.994" y="447.753">id</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="398.894" y="447.753">SERIAL</text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="257.994" y1="449.353" x2="445.094" y2="449.353"/>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="253.994" cy="457.753" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="257.994" y="463.753">fk_objective_id</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="398.894" y="463.753">INTEGER</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="253.994" cy="473.753" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="257.994" y="479.753">name</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="398.894" y="479.753">TEXT</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="253.994" cy="489.753" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="257.994" y="495.753">execution_at_time</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="398.894" y="495.753">TIMESTAMP_WITH_TIME_ZONE</text>
+      <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 0.2; stroke: #000000" cx="253.994" cy="505.753" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="257.994" y="511.753">finished_at_time</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="398.894" y="511.753">TIMESTAMP_WITH_TIME_ZONE</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="253.994" cy="521.753" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="257.994" y="527.753">lead</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="398.894" y="527.753">TEXT</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="746.647" y="435.556" width="218.5" height="18"/>
+      <text font-size="11.1992" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="855.897" y="449.556">Squad</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="746.647" y="453.556" width="218.5" height="84"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="749.647,463.556 751.647,466.556 753.647,463.556 751.647,460.556 "/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="755.647" y="469.556">id</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="858.047" y="469.556">SERIAL</text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="755.647" y1="471.156" x2="904.247" y2="471.156"/>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="751.647" cy="479.556" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="755.647" y="485.556">fk_raid_id</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="858.047" y="485.556">INTEGER</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="751.647" cy="495.556" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="755.647" y="501.556">name</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="858.047" y="501.556">TEXT</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="751.647" cy="511.556" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="755.647" y="517.556">owner</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="858.047" y="517.556">TEXT</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="751.647" cy="527.556" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="755.647" y="533.556">attack_force</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="858.047" y="533.556">NUMERIC(18,3)</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1101.5" y="449.705" width="218.5" height="18"/>
+      <text font-size="11.1992" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1210.75" y="463.705">Unit</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1101.5" y="467.705" width="218.5" height="100"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="1104.5,477.705 1106.5,480.705 1108.5,477.705 1106.5,474.705 "/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1110.5" y="483.705">id</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1212.9" y="483.705">SERIAL</text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="1110.5" y1="485.305" x2="1259.1" y2="485.305"/>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="1106.5" cy="493.705" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1110.5" y="499.705">fk_squad_id</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1212.9" y="499.705">INTEGER</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="1106.5" cy="509.705" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1110.5" y="515.705">name</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1212.9" y="515.705">TEXT</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="1106.5" cy="525.705" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1110.5" y="531.705">build_type</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1212.9" y="531.705">TEXT</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="1106.5" cy="541.705" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1110.5" y="547.705">hp</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1212.9" y="547.705">NUMERIC(18,3)</text>
+      <ellipse style="fill: #000000; fill-opacity: 1; stroke: none" cx="1106.5" cy="557.705" rx="2" ry="2"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1110.5" y="563.705">attack_force</text>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1212.9" y="563.705">NUMERIC(18,3)</text>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="366.35,304 366.35,325 227.994,325 227.994,422.753 248.994,422.753 "/>
+      <text font-size="9.59961" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="370.35" y="316">1</text>
+      <text font-size="9.59961" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="244.994" y="418.753">n</text>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="590.694,457.753 668.67,457.753 668.67,444.556 746.647,444.556 "/>
+      <text font-size="9.59961" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="594.694" y="453.753">1</text>
+      <text font-size="9.59961" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="742.647" y="440.556">n</text>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="965.147,444.556 1033.32,444.556 1033.32,458.705 1101.5,458.705 "/>
+      <text font-size="9.59961" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="969.147" y="440.556">1</text>
+      <text font-size="9.59961" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="1097.5" y="454.705">n</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+services:
+  db:
+    container_name: spraidmanager
+    image: postgres
+    environment:
+      POSTGRES_DB: spraid  # Match the database name in your application.properties
+      POSTGRES_USER: spraid
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+    volumes:
+      - dp:/data/postgres
+    ports:
+      - "5334:5432"
+    networks:
+      - db
+    restart: unless-stopped
+
+networks:
+  db:
+    driver: bridge
+
+volumes:
+  dp:  # Correctly declare the volume here
