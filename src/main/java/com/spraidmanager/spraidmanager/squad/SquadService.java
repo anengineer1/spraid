@@ -21,7 +21,7 @@ public class SquadService {
 	}
 
 	public List<Squad> getSquadsByOwner(String name) {
-		return this.squadRepository.findByOnwer(name);
+		return this.squadRepository.findByOwner(name);
 	}
 
 	public List<Squad> getSquadsByName(String name) {
