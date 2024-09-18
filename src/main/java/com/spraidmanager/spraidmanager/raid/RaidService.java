@@ -19,6 +19,10 @@ public class RaidService {
 		return this.raidRepository.findById(id);
 	}
 
+	public List<Raid> getAllRaids() {
+		return this.raidRepository.findAll();
+	}
+
 	public List<Raid> getRaidByName(String name) {
 		return this.raidRepository.findByName(name);
 	}

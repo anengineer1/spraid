@@ -20,6 +20,11 @@ public class UnitController {
 		this.unitService = unitService;
 	}
 
+	@GetMapping("")
+	public List<Unit> getAllUnits() {
+		return this.unitService.getAllUnits();
+	}
+
 	@GetMapping("/{id}")
 	public Unit getUnitById(@PathVariable("id") int id) {
 		return this.unitService.getUnitById(id);

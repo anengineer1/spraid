@@ -21,6 +21,11 @@ public class ObjectiveController {
 		this.objectiveService = objectiveService;
 	}
 
+	@GetMapping("")
+	public List<Objective> getAllObjectives() {
+		return this.objectiveService.getAllObjectives();
+	}
+
 	@GetMapping("/{id}")
 	public Objective getObjectiveById(@PathVariable("id") int id) {
 		return this.objectiveService.getObjectiveById(id);

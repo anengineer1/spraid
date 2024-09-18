@@ -19,6 +19,11 @@ public class RaidController {
 		this.raidService = raidService;
 	}
 
+	@GetMapping("")
+	public List<Raid> getAllRaids() {
+		return this.raidService.getAllRaids();
+	}
+
 	@GetMapping("/{id}")
 	public Raid getRaidByID(@PathVariable("id") int id) {
 		return this.raidService.getRaidById(id);

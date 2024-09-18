@@ -16,6 +16,10 @@ public class UnitService {
 		this.unitRepository = unitRepository;
 	}
 
+	public List<Unit> getAllUnits() {
+		return this.unitRepository.findAll();
+	}
+
 	public Unit getUnitById(int id) {
 		return this.unitRepository.findById(id);
 	}

@@ -20,6 +20,11 @@ public class SquadController {
 		this.squadService = squadService;
 	}
 
+	@GetMapping("")
+	public List<Squad> getAllSquads() {
+		return this.squadService.getAllSquads();
+	}
+
 	@GetMapping("/{id}")
 	public Squad getSquadById(@PathVariable("id") int id) {
 		return this.squadService.getSquadFromId(id);

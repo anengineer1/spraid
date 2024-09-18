@@ -20,6 +20,10 @@ public class SquadService {
 		return this.squadRepository.findById(id);
 	}
 
+	public List<Squad> getAllSquads() {
+		return this.squadRepository.findAll();
+	}
+
 	public List<Squad> getSquadsByOwner(String name) {
 		return this.squadRepository.findByOwner(name);
 	}

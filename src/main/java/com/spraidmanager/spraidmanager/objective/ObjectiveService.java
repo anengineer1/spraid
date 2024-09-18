@@ -15,6 +15,10 @@ public class ObjectiveService {
 		this.objectiveRepository = objectiveRepository;
 	}
 
+	public List<Objective> getAllObjectives() {
+		return this.objectiveRepository.findAll();
+	}
+
 	public Objective getObjectiveById(int id) {
 		return this.objectiveRepository.findById(id);
 	}
