@@ -6,8 +6,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ObjectiveRepository extends JpaRepository<Objective, Integer> {
 
-    public Objective findById(int id);
+	public Objective findById(int id);
 
-    public List<Objective> findByName(String name);
+	public List<Objective> findByName(String name);
 
 }

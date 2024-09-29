@@ -35,4 +35,8 @@ public class RaidService {
 		return this.raidRepository.findByLeadOrderByExecutionAtTimeDesc(lead);
 	}
 
+	public List<Raid> getRaidByObjectiveId(int objectiveId) {
+		return this.raidRepository.findByObjectiveId(objectiveId);
+	}
+
 }

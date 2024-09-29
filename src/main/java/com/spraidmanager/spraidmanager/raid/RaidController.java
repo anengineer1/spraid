@@ -44,4 +44,9 @@ public class RaidController {
 		return this.raidService.getRaidByLeadOrderByExecutionAtTimeDesc(lead);
 	}
 
+	@GetMapping("/objective/id/{objectiveId}")
+	public List<Raid> getRaidByObjectiveId(@PathVariable("objectiveId") int objectiveId) {
+		return this.raidService.getRaidByObjectiveId(objectiveId);
+	}
+
 }

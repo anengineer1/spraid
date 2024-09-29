@@ -14,4 +14,5 @@ public interface RaidRepository extends JpaRepository<Raid, Integer> {
 
 	public List<Raid> findByLeadOrderByExecutionAtTimeDesc(String lead);
 
+	public List<Raid> findByObjectiveId(int objetiveId);
 }

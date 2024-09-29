@@ -5,6 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import jakarta.persistence.EntityNotFoundException;
+
 @Service
 public class ObjectiveService {
 
@@ -29,5 +31,12 @@ public class ObjectiveService {
 
 	public void insertObjective(Objective objective) {
 		this.objectiveRepository.save(objective);
+	}
+
+	public Objective modifyObjective(Objective objective) {
+		if (!this.objectiveRepository.existsById(objective.getId())) {
+			throw new EntityNotFoundException("Objective with id" + objective.getId() + "not found");
+		}
+		return this.objectiveRepository.save(objective);
 	}
 }
