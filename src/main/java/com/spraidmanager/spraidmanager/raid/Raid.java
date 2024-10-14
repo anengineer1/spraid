@@ -10,7 +10,6 @@ import com.spraidmanager.spraidmanager.objective.Objective;
 import com.spraidmanager.spraidmanager.squad.Squad;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;

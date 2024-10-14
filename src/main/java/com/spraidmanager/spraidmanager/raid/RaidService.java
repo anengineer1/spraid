@@ -39,4 +39,7 @@ public class RaidService {
 		return this.raidRepository.findByObjectiveId(objectiveId);
 	}
 
+	public Raid saveRaid(Raid raid) {
+		return this.raidRepository.save(raid);
+	}
 }
